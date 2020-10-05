@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Week2_Yavuz_Webshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="https://picsum.photos/id/605/600/400" alt="lorem-picsum" id="img">
+            <nav>
+                &#128165
+                <a href="">Homepage</a>
+                <a href="">About me</a>
+                <a href="">Contact me</a>
+            </nav>
+<div id="div_a">
+    <h1>AUTO GALERIE</h1>
+
+    <section>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, quia voluptatibus debitis temporibus dolor libero consequatur cupiditate facere voluptates soluta ipsam doloremque illum fugit sed magni hic maxime, sequi obcaecati atque exercitationem aspernatur aliquid quam saepe esse. Ducimus, hic non! Alias laborum veniam nam, iure maxime vitae numquam quos doloremque quibusdam reprehenderit. Harum repellat repudiandae voluptatum in atque obcaecati sint dignissimos explicabo quos. Nulla libero, officiis voluptatibus enim illum repudiandae?</section>
+</div>
+<div class="div_1">
+    <h3>choose</h3>
+        <table border="1" class="table">
+            <thead>
+                <tr>
+                    <th>Car Models</th>
+                    <th>About</th>
+                    <th>Preis</th>
+                    <th>More Info</th>
+                </tr>
+            </thead>
+    ​
+            <tbody>
+                <tr>
+                    <td>Porsche</td>
+                    <td>New</td>
+                    <td>300.000 CH</td>
+                    <td><a href="./products_b.html" target="_blank">click</a></td>
+                </tr>
+                <tr>
+                    <td>Maserati</td>
+                    <td>Secondhandy</td>
+                    <td rowspan="2">50.000 CH</td>
+                    <td><a href="./products_c.html" target="_blank">click</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">BMW</td>
+                    <td><a href="./products_d.html" target="_blank">click</a></td>
+                </tr>
+        </table>
+    </div>
+    <br>
+    <form action="" method="GET" name="myform">
+        <div>
+            <label for="cars" >Choose a car : </label>
+            <br>
+            <select name="cars" id="cars" multiple>
+                <option value="disabled selected value">choose</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Maserati">Maserati</option>
+                <option value="BMW">BMW</option>
+                <option value="Tesla">Tesla</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="message">Enter Comment here:</label>
+            <br>
+            <textarea name="message" id="message" maxlength="50">Enter text here</textarea>
+        </div>
+        <div>
+            <label for="browsers">Card  Type:</label>
+            <input type="text" list="browsers" name="options">
+            <datalist id="browsers" >
+                <option value="Visa"></option>
+                <option value="Master"></option>
+            </datalist>
+        </div>
+        <div>
+            <fieldset class="credit">
+                <!-- buraya card sahibinin bilgileri girilcek -->
+                <legend>Credit Card Info</legend>
+                <label for="fname">First Name:</label>
+                <br>
+                <input type="text" name="fname" id="fname" value="" placeholder="your name">
+                <br>
+                <label for="lname">Last Name:</label>
+                <br>
+                <input type="text" name="lname" id="lname" value="">
+                <br>
+                <label for="e-mail">E-mail</label>
+                <br>
+                <input type="email" name="e-mail" id="e-mail" value="">
+            </fieldset>
+        </div>
+        <input type="submit" value="Send">
+    </form>
+    <main>
+</body>
+</html>

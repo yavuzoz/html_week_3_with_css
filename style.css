@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(175, 228, 228);
+}
+table {
+    background-color: rgb(85, 85, 102);
+}
+img {
+    float: left;
+}
+
+
+.div_1 {
+    clear: both;
+    background-color: blueviolet;
+    border: 5px solid;
+   
+}
+#div_a {
+
+    float: right;
+    text-align:left;
+}
